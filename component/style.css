@@ -1,0 +1,94 @@
+.Playlist {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+.playlist-content {
+    color: white;
+    font-family: 'Arial';
+    font-size: small;
+}
+.playlist-sub {
+    color: gray;
+    font-family: 'Arial';
+    font-size: small;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.playlist-album{
+    padding: 10px;
+}
+
+.Selector{
+    display: flex;
+    padding: 20px 5px 0px 30px;
+    background-color: black;
+}
+.Song {
+    color: white;
+    font-family: 'Arial';
+    font-size: medium;
+    background-color:blueviolet;
+    padding: 5px 20px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+.Album {
+    color: white;
+    font-family: 'Arial';
+    font-size: medium;
+    padding: 5px 20px;
+    border: solid darkgray 1px;
+    border-radius: 50px;
+}
+.MPH {
+    padding: 20px;
+    display: grid;
+    background-color: black;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.NS-container {
+    padding: 10px;
+    display: flex;
+}
+.NS-image {
+    border-radius: 8px;
+    max-height: 5em;
+    
+}
+.NS-content {
+    margin-left: 1em;
+}
+
+.NS-name {
+    color: white;
+    font-family: 'Arial';
+    font-size:medium;
+}
+.NS-singer {
+    color: gray;
+    font-family: 'Arial';
+    font-size: small;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.NS-date {
+    color: gray;
+    font-family: 'Arial';
+    font-size: small;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h1 {
+    margin-left: 30px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.AppContainer {
+    background-color: black;
+}
